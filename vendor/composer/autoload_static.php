@@ -189,6 +189,7 @@ class ComposerStaticInitcd68ded5d2b4a23f6ace7d1cc446d61f
         'B' => 
         array (
             'Brick\\Math\\' => 11,
+            'BehinVehicleRegistration\\' => 25,
             'BehinInit\\' => 10,
         ),
         'A' => 
@@ -573,6 +574,10 @@ class ComposerStaticInitcd68ded5d2b4a23f6ace7d1cc446d61f
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
+        'BehinVehicleRegistration\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/behin-vehicle-registration/src',
+        ),
         'BehinInit\\' => 
         array (
             0 => __DIR__ . '/../..' . '/packages/behin-init/src',
@@ -596,9 +601,11 @@ class ComposerStaticInitcd68ded5d2b4a23f6ace7d1cc446d61f
         'App\\Http\\Controllers\\Auth\\VerifyEmailController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerifyEmailController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\ProfileController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProfileController.php',
+        'App\\Http\\Controllers\\VehicleRegistration\\VehicleRegController' => __DIR__ . '/../..' . '/app/Http/Controllers/VehicleRegistration/VehicleRegController.php',
         'App\\Http\\Requests\\Auth\\LoginRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Auth/LoginRequest.php',
         'App\\Http\\Requests\\ProfileUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ProfileUpdateRequest.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\VehicleRegistration\\VehicleRegistration' => __DIR__ . '/../..' . '/app/Models/VehicleRegistration/VehicleRegistration.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\View\\Components\\AppLayout' => __DIR__ . '/../..' . '/app/View/Components/AppLayout.php',
         'App\\View\\Components\\GuestLayout' => __DIR__ . '/../..' . '/app/View/Components/GuestLayout.php',
@@ -611,6 +618,7 @@ class ComposerStaticInitcd68ded5d2b4a23f6ace7d1cc446d61f
         'BehinInit\\App\\Http\\Requests\\Auth\\LoginRequest' => __DIR__ . '/../..' . '/packages/behin-init/src/App/Http/Requests/Auth/LoginRequest.php',
         'BehinInit\\App\\Models\\Access' => __DIR__ . '/../..' . '/packages/behin-init/src/App/Models/Access.php',
         'BehinInit\\BehinInitProvider' => __DIR__ . '/../..' . '/packages/behin-init/src/BehinInitProvider.php',
+        'BehinVehicleRegistration\\PackageProviders' => __DIR__ . '/../..' . '/packages/behin-vehicle-registration/src/PackageProviders.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',
         'Brick\\Math\\BigInteger' => __DIR__ . '/..' . '/brick/math/src/BigInteger.php',
         'Brick\\Math\\BigNumber' => __DIR__ . '/..' . '/brick/math/src/BigNumber.php',

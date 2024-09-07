@@ -24,7 +24,8 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "BehinInit\\": "packages/behin-init/src/"
+            "BehinInit\\": "packages/behin-init/src/",
+            "BehinVehicleRegistration\\": "packages/behin-vehicle-registration/src/"
         }
     },
     "autoload-dev": {
