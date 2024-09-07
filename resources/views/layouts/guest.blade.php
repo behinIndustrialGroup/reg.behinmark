@@ -51,7 +51,7 @@
     <script src="{{ url('public/behin/behin-js/dropzone.js') . '?' . config('app.version') }}"></script>
 </head>
 
-<body class="container form-container">
+<body class="container ">
     @yield('content')
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
